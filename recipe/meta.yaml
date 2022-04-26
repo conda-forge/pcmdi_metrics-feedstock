@@ -10,7 +10,7 @@ source:
   sha256: db5d480b8cbc35d1ebbca1f6db3ad3249abed90ee22593507abfcf29fada6787
 
 build:
-  number: 0 
+  number: 1 
   script: "{{ PYTHON }} -m pip install . -vv"
   noarch: python
   entry_points:
@@ -41,6 +41,7 @@ requirements:
     - nb_conda
     - nb_conda_kernels
     - enso_metrics
+    - seaborn
 
 test:
   imports:
