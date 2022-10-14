@@ -1,5 +1,5 @@
 {% set name = "pcmdi_metrics" %}
-{% set version = "2.4.0" %}
+{% set version = "2.5.0" %}
 
 package:
   name: {{ name|lower }}
@@ -42,6 +42,10 @@ requirements:
     - nb_conda_kernels
     - enso_metrics
     - seaborn
+    - netcdf4
+    - regionmask
+    - rasterio
+    - shapely
 
 test:
   imports:
