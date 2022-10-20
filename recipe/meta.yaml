@@ -34,7 +34,7 @@ requirements:
     - cdutil
     - cdp
     - matplotlib-base
-    - numpy<1.23.0
+    - numpy <1.23.0
     - cartopy
     - eofs
     - jupyterlab
