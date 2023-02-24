@@ -42,6 +42,8 @@ requirements:
     - nb_conda_kernels
     - enso_metrics
     - seaborn
+    - xcdat
+    - xmltodict
     - netcdf4
     - regionmask
     - rasterio
