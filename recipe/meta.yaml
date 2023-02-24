@@ -1,5 +1,5 @@
 {% set name = "pcmdi_metrics" %}
-{% set version = "2.5.1" %}
+{% set version = "3.0.1" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://github.com/PCMDI/pcmdi_metrics/archive/refs/tags/v{{ version }}.tar.gz
-  sha256: 162e572f06aa8e600723eb6c68ab28ae63c9de050a4f9b9c74e87ce698a345eb
+  sha256: a95b5d08bbe1e5f4aea52cac3b2cee2a3298ff469cb870b2aeebd5c1c0a3bea5
 
 build:
   number: 0
@@ -46,6 +46,8 @@ requirements:
     - regionmask
     - rasterio
     - shapely
+    - xmltodict
+    - xcdat
 
 test:
   imports:
@@ -58,6 +60,7 @@ test:
     - variability_modes_driver.py --help
     - mjo_metrics_driver.py --help
     - enso_driver.py --help
+    - variability_across_timescales_PS_driver.py --help
     - precip_distribution_driver.py --help
 
 about:
