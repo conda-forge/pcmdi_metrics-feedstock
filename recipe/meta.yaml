@@ -60,7 +60,7 @@ test:
     - variability_modes_driver.py --help
     - mjo_metrics_driver.py --help
     - enso_driver.py --help
-    - precip_distribution_driver.py --help
+    - variability_across_timescales_PS_driver.py --help
 
 about:
   home: http://github.com/PCMDI/pcmdi_metrics
