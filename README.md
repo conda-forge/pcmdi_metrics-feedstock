@@ -1,11 +1,11 @@
-About pcmdi_metrics
-===================
+About pcmdi_metrics-feedstock
+=============================
+
+Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/pcmdi_metrics-feedstock/blob/main/LICENSE.txt)
 
 Home: http://github.com/PCMDI/pcmdi_metrics
 
 Package license: BSD-3-Clause
-
-Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/pcmdi_metrics-feedstock/blob/main/LICENSE.txt)
 
 Summary: The PCMDI metrics package is used to objectively compare results from climate models with observations using well-established statistical tests. Results are produced in the context of all model simulations contributed to CMIP5 and earlier CMIP phases. Among other purposes, this enables modeling groups to evaluate changes during the development cycle in the context of the structural error distribution of the multi-model ensemble. Currently, the comparisons are focused on large- to global-scale annual cycle performance metrics.
 
