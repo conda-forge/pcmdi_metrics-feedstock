@@ -47,7 +47,7 @@ requirements:
     - rasterio
     - shapely
     - xmltodict
-    - xcdat
+    - xcdat>=0.5
 
 test:
   imports:
