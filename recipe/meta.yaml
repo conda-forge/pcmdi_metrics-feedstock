@@ -10,7 +10,7 @@ source:
   sha256: ab50f9e7fdb8b10ff2139adc701740cfcd467285af3376013cbf7c216372fca9
 
 build:
-  number: 0
+  number: 1
   script: {{ PYTHON }} -m pip install . -vv
   noarch: python
   entry_points:
@@ -40,6 +40,7 @@ requirements:
     - jupyterlab
     - nb_conda
     - nb_conda_kernels
+    - notebook <7.0.0
     - enso_metrics
     - seaborn
     - netcdf4
