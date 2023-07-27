@@ -40,6 +40,7 @@ requirements:
     - jupyterlab
     - nb_conda
     - nb_conda_kernels
+    - notebook <7.0.0
     - enso_metrics
     - seaborn
     - netcdf4
