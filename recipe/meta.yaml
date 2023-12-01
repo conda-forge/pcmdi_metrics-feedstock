@@ -10,7 +10,7 @@ source:
   sha256: 76df75f1e2eb5e5fdb294dccc38e3f627bc8530b1668448c9bef9954c7553c01
 
 build:
-  number: 1
+  number: 0
   script: {{ PYTHON }} -m pip install . -vv
   noarch: python
   entry_points:
@@ -48,7 +48,7 @@ requirements:
     - rasterio
     - shapely
     - xmltodict
-    - xcdat >=0.5
+    - xcdat >=0.6.1
 
 test:
   imports:
