@@ -1,5 +1,5 @@
 {% set name = "pcmdi_metrics" %}
-{% set version = "3.3" %}
+{% set version = "3.3.1" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://github.com/PCMDI/pcmdi_metrics/archive/refs/tags/v{{ version }}.tar.gz
-  sha256: 020dcfbbd6801d8f5cc13b639c0f00adf0b689f8cd038d8d56524548a89089db
+  sha256: 1abb27a32983435b0d5f58bac2660fc47217c7428cbae050af1a78cb869b30e8
 
 build:
   number: 0
