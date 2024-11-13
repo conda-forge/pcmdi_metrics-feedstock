@@ -37,6 +37,7 @@ requirements:
     - matplotlib-base
     - numpy =1.23.5
     - cartopy
+    - colorcet
     - eofs
     - jupyterlab
     - nb_conda
