@@ -1,5 +1,5 @@
 {% set name = "pcmdi_metrics" %}
-{% set version = "3.6.1" %}
+{% set version = "3.7" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://github.com/PCMDI/pcmdi_metrics/archive/refs/tags/v{{ version }}.tar.gz
-  sha256: 2a148e73bc5d0fde9c7ec20e64a8281f9bafb91f3aff35aaf03ed90e1b88463f
+  sha256: 17b07883488c6f47c96cd5a6765f3021408d1198fecc832e37dbe959985a6990
 
 build:
   number: 0
@@ -25,8 +25,9 @@ build:
 
 requirements:
   host:
-    - python >=3.6
+    - python 3.6
     - pip
+    - setuptools
   run:
     - python >=3.6
     - cdms2
@@ -36,6 +37,7 @@ requirements:
     - matplotlib-base
     - numpy =1.23.5
     - cartopy
+    - colorcet
     - eofs
     - jupyterlab
     - nb_conda
