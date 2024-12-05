@@ -35,7 +35,7 @@ requirements:
     - cdutil
     - cdp
     - matplotlib-base
-    - numpy >=2.0.0,<3.0.0
+    - numpy
     - cartopy
     - cmocean
     - colorcet
