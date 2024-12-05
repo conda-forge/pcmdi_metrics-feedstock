@@ -24,13 +24,13 @@ build:
     - std_of_meandiurnalcycle.py = pcmdi_metrics.diurnal.scripts.std_of_meandiurnalcycle:main
 
 requirements:
+  build:
+    - python
+    - numpy
   host:
     - python 3.6
     - pip
     - setuptools    
-  build:
-    - python
-    - numpy
   run:
     - python >=3.6
     - cdms2
