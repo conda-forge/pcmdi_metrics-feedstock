@@ -27,7 +27,10 @@ requirements:
   host:
     - python 3.6
     - pip
-    - setuptools
+    - setuptools    
+  build:
+    - python
+    - numpy
   run:
     - python >=3.6
     - cdms2
