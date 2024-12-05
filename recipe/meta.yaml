@@ -25,8 +25,8 @@ build:
 
 requirements:
   build:
-    - python
-    - numpy
+    - python 3.6
+    - numpy 2.0
   host:
     - python 3.6
     - pip
@@ -38,7 +38,7 @@ requirements:
     - cdutil
     - cdp
     - matplotlib-base
-    - numpy
+    - numpy >=2.0.0,<3.0.0
     - cartopy
     - cmocean
     - colorcet
