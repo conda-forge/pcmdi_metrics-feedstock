@@ -30,7 +30,7 @@ requirements:
   host:
     - python 3.6
     - pip
-    - setuptools    
+    - setuptools
   run:
     - python >=3.6
     - cdms2
@@ -56,7 +56,7 @@ requirements:
     - rasterio
     - shapely
     - xmltodict
-    - xcdat  >=0.7.3
+    - xcdat >=0.7.3
 
 test:
   requires:
