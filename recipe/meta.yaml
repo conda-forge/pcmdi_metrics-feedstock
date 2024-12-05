@@ -25,11 +25,11 @@ build:
 
 requirements:
   host:
-    - python 3.6
+    - python 3.9
     - pip
     - setuptools
   run:
-    - python >=3.6
+    - python >=3.9
     - cdms2
     - genutil
     - cdutil
@@ -57,7 +57,7 @@ requirements:
 
 test:
   requires:
-    - python 3.6
+    - python 3.9
   imports:
     - pcmdi_metrics
   commands:
