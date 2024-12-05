@@ -39,7 +39,7 @@ requirements:
     - cartopy
     - cmocean
     - colorcet
-    - eofs
+    - eofs >=2.0.0
     - jupyterlab
     - nb_conda
     - nb_conda_kernels
@@ -53,7 +53,7 @@ requirements:
     - rasterio
     - shapely
     - xmltodict
-    - xcdat >=0.6.1
+    - xcdat  >=0.7.3
 
 test:
   requires:
