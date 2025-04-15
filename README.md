@@ -150,6 +150,5 @@ Feedstock Maintainers
 =====================
 
 * [@lee1043](https://github.com/lee1043/)
-* [@gleckler1](https://github.com/gleckler1/)
 * [@kristinchang3](https://github.com/kristinchang3)
-
+* [@gleckler1](https://github.com/gleckler1/)
