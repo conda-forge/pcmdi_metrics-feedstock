@@ -33,7 +33,7 @@ Current release info
 
 | Name | Downloads | Version | Platforms |
 | --- | --- | --- | --- |
-| [![Conda Recipe](https://img.shields.io/badge/recipe-pcmdi_metrics-green.svg)](https://anaconda.org/conda-forge/pcmdi_metrics) | [![Conda Downloads](https://img.shields.io/conda/dn/conda-forge/pcmdi_metrics.svg)](https://anaconda.org/conda-forge/pcmdi_metrics) | [![Conda Version](https://img.shields.io/conda/vn/conda-forge/pcmdi_metrics.svg)](https://anaconda.org/conda-forge/pcmdi_metrics) | [![Conda Platforms](https://img.shields.io/conda/pn/conda-forge/pcmdi_metrics.svg)](https://anaconda.org/conda-forge/pcmdi_metrics) |
+| [![Conda Recipe](https://img.shields.io/badge/recipe-pcmdi__metrics-green.svg)](https://anaconda.org/conda-forge/pcmdi_metrics) | [![Conda Downloads](https://img.shields.io/conda/dn/conda-forge/pcmdi_metrics.svg)](https://anaconda.org/conda-forge/pcmdi_metrics) | [![Conda Version](https://img.shields.io/conda/vn/conda-forge/pcmdi_metrics.svg)](https://anaconda.org/conda-forge/pcmdi_metrics) | [![Conda Platforms](https://img.shields.io/conda/pn/conda-forge/pcmdi_metrics.svg)](https://anaconda.org/conda-forge/pcmdi_metrics) |
 
 Installing pcmdi_metrics
 ========================
@@ -149,6 +149,7 @@ In order to produce a uniquely identifiable distribution:
 Feedstock Maintainers
 =====================
 
-* [@lee1043](https://github.com/lee1043/)
-* [@kristinchang3](https://github.com/kristinchang3)
 * [@gleckler1](https://github.com/gleckler1/)
+* [@kristinchang3](https://github.com/kristinchang3/)
+* [@lee1043](https://github.com/lee1043/)
+
