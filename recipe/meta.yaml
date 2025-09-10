@@ -30,12 +30,9 @@ requirements:
     - setuptools
   run:
     - python >={{ python_min }}
-    - cdms2
-    - genutil
-    - cdutil
     - cdp
     - matplotlib-base
-    - numpy >=2.0.0,<3.0.0
+    - numpy >=2.0.0,<2.1.0
     - cartopy
     - cmocean
     - colorcet
@@ -51,9 +48,9 @@ requirements:
     - netcdf4
     - regionmask
     - rasterio
-    - shapely
+    - shapely >=2.0.1,<=2.0.6
     - xmltodict
-    - xcdat >=0.6.1
+    - xcdat >=0.7.3
     - xclim
 
 test:
