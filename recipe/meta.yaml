@@ -43,7 +43,6 @@ requirements:
     - nc-time-axis
     - notebook <7.0.0
     - numdifftools
-    - enso_metrics
     - seaborn
     - netcdf4
     - regionmask
