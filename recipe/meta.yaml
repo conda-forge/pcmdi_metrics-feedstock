@@ -30,13 +30,13 @@ requirements:
     - setuptools
   run:
     - python >={{ python_min }}
-    - cdp
+    - cdp >=1.7.0
     - matplotlib-base
-    - numpy >=2.0.0,<2.1.0
-    - cartopy
+    - numpy >=2.0.0,<3
+    - cartopy >=0.22.0
     - cmocean
     - colorcet
-    - eofs
+    - eofs >=2.0.0
     - jupyterlab
     - nb_conda
     - nb_conda_kernels
@@ -49,7 +49,7 @@ requirements:
     - rasterio
     - shapely >=2.0.1,<=2.0.6
     - xmltodict
-    - xcdat >=0.7.3
+    - xcdat >=0.10.0
     - xclim
 
 test:
