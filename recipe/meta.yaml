@@ -1,5 +1,5 @@
 {% set name = "pcmdi_metrics" %}
-{% set version = "3.9.3" %}
+{% set version = "4.0.0" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://github.com/PCMDI/pcmdi_metrics/archive/refs/tags/v{{ version }}.tar.gz
-  sha256: 64a7667d660ffc77a01db39b3e8c872ab70fa99aea6c3774570f4989b562bbd4
+  sha256: ecb027fd9af5cc4e4d971e84591cde312dd8d06bfb7d9d228c833ed1aef69f9d
 
 build:
   number: 0
@@ -30,13 +30,13 @@ requirements:
     - setuptools
   run:
     - python >={{ python_min }}
-    - cdp
+    - cdp >=1.7.0
     - matplotlib-base
-    - numpy >=2.0.0,<2.1.0
-    - cartopy
+    - numpy >=2.0.0,<3
+    - cartopy >=0.22.0
     - cmocean
     - colorcet
-    - eofs
+    - eofs >=2.0.0
     - jupyterlab
     - nb_conda
     - nb_conda_kernels
@@ -49,7 +49,7 @@ requirements:
     - rasterio
     - shapely >=2.0.1,<=2.0.6
     - xmltodict
-    - xcdat >=0.7.3
+    - xcdat >=0.10.0
     - xclim
 
 test:
