@@ -41,7 +41,6 @@ requirements:
     - nb_conda
     - nb_conda_kernels
     - nc-time-axis
-    - notebook <7.0.0
     - numdifftools
     - seaborn
     - netcdf4 >=1.6.3
