@@ -38,8 +38,6 @@ requirements:
     - colorcet
     - eofs >=2.0.0
     - jupyterlab
-    - nb_conda
-    - nb_conda_kernels
     - nc-time-axis
     - numdifftools
     - seaborn
