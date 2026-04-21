@@ -40,6 +40,7 @@ requirements:
     - jupyterlab
     - nc-time-axis
     - numdifftools
+    - pandas <3.0.0
     - seaborn
     - netcdf4 >=1.6.3
     - regionmask >=0.12.1
