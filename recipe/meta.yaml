@@ -1,5 +1,5 @@
 {% set name = "pcmdi_metrics" %}
-{% set version = "4.0.1" %}
+{% set version = "4.0.2" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://github.com/PCMDI/pcmdi_metrics/archive/refs/tags/v{{ version }}.tar.gz
-  sha256: 0cfa05f5735541c3770e399799e233c9d5f3ca4195e826813e7a039383ceade7
+  sha256: 9e7c53760b18690b8a9874255230f3a8709db2a55902bdd1ad3c9e5e91b06fa0
 
 build:
   number: 0
@@ -40,6 +40,7 @@ requirements:
     - jupyterlab
     - nc-time-axis
     - numdifftools
+    - pandas <3.0.0
     - seaborn
     - netcdf4 >=1.6.3
     - regionmask >=0.12.1
@@ -71,8 +72,8 @@ about:
   license: BSD-3-Clause
   license_family: BSD
   license_file: LICENSE
-  summary: The PCMDI metrics package is used to objectively compare results from climate models with observations using well-established statistical tests. Results are produced in the context of all model simulations contributed to CMIP5 and earlier CMIP phases. Among other purposes, this enables modeling groups to evaluate
-    changes during the development cycle in the context of the structural error distribution of the multi-model ensemble. Currently, the comparisons are focused on large- to global-scale annual cycle performance metrics.
+  summary: The PCMDI metrics package is used to objectively compare results from climate models with observations using well-established statistical tests. Results are produced in the context of all model simulations contributed to CMIP5 and earlier CMIP phases. Among other purposes, this enables modeling groups to 
+    evaluate changes during the development cycle in the context of the structural error distribution of the multi-model ensemble. Currently, the comparisons are focused on large- to global-scale annual cycle performance metrics.
   description: model metrics tools
   doc_url: https://pcmdi.github.io/pcmdi_metrics/
   dev_url: https://github.com/PCMDI/pcmdi_metrics
