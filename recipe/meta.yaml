@@ -1,5 +1,5 @@
 {% set name = "pcmdi_metrics" %}
-{% set version = "4.0.4" %}
+{% set version = "4.1.0" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://github.com/PCMDI/pcmdi_metrics/archive/refs/tags/v{{ version }}.tar.gz
-  sha256: 78379d206945cfa7cdab1517dee50739c833c1d0b757ad5e29f1e8f5b4be154e
+  sha256: 0785e200808e9677736c39d3eeeac491513086564029540eb55987a2a20612d0
 
 build:
   number: 0
@@ -37,6 +37,8 @@ requirements:
     - cmocean
     - colorcet
     - eofs >=2.0.0
+    - seaborn >=0.12.2
+    - enso_metrics >=2.0.0
     - jupyterlab
     - nc-time-axis
     - numdifftools
