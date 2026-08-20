@@ -46,31 +46,73 @@ conda config --add channels conda-forge
 conda config --set channel_priority strict
 ```
 
-Once the `conda-forge` channel has been enabled, `pcmdi_metrics` can be installed with `conda`:
+How to use
+----------
+
+<details>
+<summary>With conda</summary>
 
 ```
 conda install pcmdi_metrics
 ```
 
-or with `mamba`:
+</details>
+
+<details>
+<summary>With mamba</summary>
 
 ```
 mamba install pcmdi_metrics
 ```
 
-It is possible to list all of the versions of `pcmdi_metrics` available on your platform with `conda`:
+</details>
+
+<details>
+<summary>With pixi</summary>
+
+```
+# for adding to your local project
+pixi add pcmdi_metrics
+# for installing globally
+pixi global install pcmdi_metrics
+```
+
+</details>
+
+Search package versions
+-----------------------
+
+It is possible to list all of the versions of `pcmdi_metrics` available on your platform:
+
+<details>
+<summary>With conda</summary>
 
 ```
 conda search pcmdi_metrics --channel conda-forge
 ```
 
-or with `mamba`:
+</details>
+
+<details>
+<summary>With mamba</summary>
 
 ```
 mamba search pcmdi_metrics --channel conda-forge
 ```
 
-Alternatively, `mamba repoquery` may provide more information:
+</details>
+
+<details>
+<summary>With pixi</summary>
+
+```
+pixi search pcmdi_metrics --channel conda-forge
+```
+
+</details>
+
+<details>
+<summary>With mamba repoquery, which may provide more information</summary>
 
 ```
 # Search all versions available on your platform:
@@ -82,6 +124,8 @@ mamba repoquery whoneeds pcmdi_metrics --channel conda-forge
 # List dependencies of `pcmdi_metrics`:
 mamba repoquery depends pcmdi_metrics --channel conda-forge
 ```
+
+</details>
 
 
 About conda-forge
