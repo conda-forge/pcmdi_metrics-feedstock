@@ -51,6 +51,7 @@ requirements:
     - xmltodict >=0.13.0
     - xcdat >=0.10.0
     - xclim
+    - six
 
 test:
   requires:
